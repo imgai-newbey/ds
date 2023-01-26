@@ -1,6 +1,6 @@
 @echo off
 
-set DIR=%~dp0system
+set DIR=%~dp0cache
 
 set PATH=C:\Windows\system32;C:\Windows;%DIR%\git\bin;%DIR%\python;%DIR%\python\Scripts
 set PY_LIBS=%DIR%\python\Scripts\Lib;%DIR%\python\Scripts\Lib\site-packages
